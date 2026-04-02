@@ -10,7 +10,7 @@ const About = () => {
                       <div className="col-lg-12">
                           <div className="inner-content">
                               <h2>A propos de Billion'Shake</h2>
-                              <span>Un template HTML5 moderne, propre et creatif</span>
+                              <span>Votre référence en style urbain et tendance</span>
                           </div>
                       </div>
                   </div>
@@ -30,11 +30,11 @@ const About = () => {
                       <div className="col-lg-6">
                           <div className="right-content">
                               <h4>A propos de Billion'Shake</h4>
-                              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kon tempor incididunt ut labore.</span>
+                              <span>Bienvenue chez Billion'Shake, l'adresse incontournable pour vos vêtements et accessoires tendance.</span>
                               <div className="quote">
-                                  <i className="fa fa-quote-left"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiuski smod kon tempor incididunt ut labore.</p>
+                                  <i className="fa fa-quote-left"></i><p>La mode passe, l'élégance Billion'Shake reste.</p>
                               </div>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kon tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                              <p>Notre mission est de vous offrir des collections exclusives alliant confort, qualité et élégance. Que vous cherchiez la pièce parfaite pour un style décontracté ou une tenue habillée, nous sélectionnons méticuleusement chaque vêtement pour répondre à vos exigences d'authenticité et de design.</p>
                               <ul>
                                   <li><a href="#"><i className="fa fa-instagram"></i></a></li>
                                   <li><a href="#"><i className="fa fa-facebook"></i></a></li>

@@ -8,7 +8,7 @@ const Products = () => {
                       <div className="col-lg-12">
                           <div className="inner-content">
                               <h2>Decouvrez nos produits</h2>
-                              <span>Mise en page HTML/CSS moderne par TemplateMo</span>
+                              <span>Explorez l'ensemble de notre catalogue.</span>
                           </div>
                       </div>
                   </div>
@@ -45,7 +45,7 @@ const Products = () => {
                               </div>
                               <div className="down-content">
                                   <h4>Classique Printemps</h4>
-                                  <span>$120.00</span>
+                                  <span>15000 CFA</span>
                                   <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
@@ -70,7 +70,7 @@ const Products = () => {
                               </div>
                               <div className="down-content">
                                   <h4>Air Force 1 X</h4>
-                                  <span>$90.00</span>
+                                  <span>15000 CFA</span>
                                   <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
@@ -95,7 +95,7 @@ const Products = () => {
                               </div>
                               <div className="down-content">
                                   <h4>Love Nana '20</h4>
-                                  <span>$150.00</span>
+                                  <span>15000 CFA</span>
                                   <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
@@ -120,7 +120,7 @@ const Products = () => {
                               </div>
                               <div className="down-content">
                                   <h4>Nouvelle veste verte</h4>
-                                  <span>$75.00</span>
+                                  <span>15000 CFA</span>
                                   <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
@@ -145,7 +145,7 @@ const Products = () => {
                               </div>
                               <div className="down-content">
                                   <h4>Robe Classique</h4>
-                                  <span>$45.00</span>
+                                  <span>15000 CFA</span>
                                   <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
@@ -170,7 +170,7 @@ const Products = () => {
                               </div>
                               <div className="down-content">
                                   <h4>Collection Printemps</h4>
-                                  <span>$130.00</span>
+                                  <span>15000 CFA</span>
                                   <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
@@ -195,7 +195,7 @@ const Products = () => {
                               </div>
                               <div className="down-content">
                                   <h4>Collection Ecole</h4>
-                                  <span>$80.00</span>
+                                  <span>15000 CFA</span>
                                   <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
@@ -220,7 +220,7 @@ const Products = () => {
                               </div>
                               <div className="down-content">
                                   <h4>Casquette Ete</h4>
-                                  <span>$12.00</span>
+                                  <span>15000 CFA</span>
                                   <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
@@ -245,7 +245,7 @@ const Products = () => {
                               </div>
                               <div className="down-content">
                                   <h4>Pull-over Classique</h4>
-                                  <span>$30.00</span>
+                                  <span>15000 CFA</span>
                                   <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>

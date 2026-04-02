@@ -8,7 +8,7 @@ const Footer = () => {
               <div className="logo">
                 <img
                   src="/assets/images/logo.png"
-                  alt="Billion'Shake ecommerce templatemo"
+                  alt="Billion'Shake ecommerce"
                   width="150"
                   height="150"
                   style={{ display: 'block', margin: '0 auto' }}
@@ -17,14 +17,14 @@ const Footer = () => {
               {/* <ul>
                 <li>
                   <a href="#!">
-                    16501 Collins Ave, Sunny Isles Beach, FL 33160, United States
+                    Agbalépédo, à côté de la station Total, Lomé, Togo
                   </a>
                 </li>
                 <li>
                   <a href="#!">contact@Billion'Shake.com</a>
                 </li>
                 <li>
-                  <a href="#!">010-020-0340</a>
+                  <a href="#!">+228 92 59 65 83</a>
                 </li>
               </ul> */}
             </div>

@@ -8,7 +8,7 @@ const SingleProduct = () => {
                       <div className="col-lg-12">
                           <div className="inner-content">
                               <h2>Page produit</h2>
-                              <span>Mise en page HTML/CSS moderne par TemplateMo</span>
+                              <span>Achetez votre coup de cœur en un clic</span>
                           </div>
                       </div>
                   </div>
@@ -30,7 +30,7 @@ const SingleProduct = () => {
                   <div className="col-lg-4">
                       <div className="right-content">
                           <h4>Nouvelle veste verte</h4>
-                          <span className="price">$75.00</span>
+                          <span className="price">15000 CFA</span>
                           <ul className="stars">
                               <li><i className="fa fa-star"></i></li>
                               <li><i className="fa fa-star"></i></li>
@@ -38,9 +38,9 @@ const SingleProduct = () => {
                               <li><i className="fa fa-star"></i></li>
                               <li><i className="fa fa-star"></i></li>
                           </ul>
-                          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kon tempor incididunt ut labore.</span>
+                          <span>Ce vêtement allie style et confort supérieur. Conçu avec des matières de premier choix, il est idéal pour affirmer votre personnalité au quotidien ou pour une occasion spéciale.</span>
                           <div className="quote">
-                              <i className="fa fa-quote-left"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiuski smod.</p>
+                              <i className="fa fa-quote-left"></i><p>Un indispensable de votre garde-robe.</p>
                           </div>
                           <div className="quantity-content">
                               <div className="left-content">
@@ -66,7 +66,7 @@ const SingleProduct = () => {
                               </div>
                           </div>
                           <div className="total">
-                              <h4>Total : $210.00</h4>
+                              <h4>Total : 15000 CFA</h4>
                               <div className="main-border-button"><a href="#">Ajouter au panier</a></div>
                           </div>
                       </div>
