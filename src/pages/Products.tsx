@@ -44,15 +44,15 @@ const Products = () => {
                                   <img src="/assets/images/men-01.jpg" alt="" />
                               </div>
                               <div className="down-content">
-                                  <h4>Classique Printemps</h4>
+                                  <h4>T-shirt Billion'Shake noire</h4>
                                   <span>15000 CFA</span>
-                                  <ul className="stars">
+                   {/* <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
-                                  </ul>
+                                  </ul> */}
                               </div>
                           </div>
                       </div>
@@ -69,15 +69,15 @@ const Products = () => {
                                   <img src="/assets/images/men-02.jpg" alt="" />
                               </div>
                               <div className="down-content">
-                                  <h4>Air Force 1 X</h4>
+                                  <h4>T-shirt Billion'Shake rose</h4>
                                   <span>15000 CFA</span>
-                                  <ul className="stars">
+                   {/* <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
-                                  </ul>
+                                  </ul> */}
                               </div>
                           </div>
                       </div>
@@ -94,15 +94,15 @@ const Products = () => {
                                   <img src="/assets/images/men-03.jpg" alt="" />
                               </div>
                               <div className="down-content">
-                                  <h4>Love Nana '20</h4>
+                                  <h4>T-shirt Billion'Shake blanc</h4>
                                   <span>15000 CFA</span>
-                                  <ul className="stars">
+                   {/* <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
-                                  </ul>
+                                  </ul> */}
                               </div>
                           </div>
                       </div>
@@ -119,15 +119,15 @@ const Products = () => {
                                   <img src="/assets/images/women-01.jpg" alt="" />
                               </div>
                               <div className="down-content">
-                                  <h4>Nouvelle veste verte</h4>
+                                  <h4>Jogging Billion'Shake</h4>
                                   <span>15000 CFA</span>
-                                  <ul className="stars">
+                   {/* <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
-                                  </ul>
+                                  </ul> */}
                               </div>
                           </div>
                       </div>
@@ -144,15 +144,15 @@ const Products = () => {
                                   <img src="/assets/images/women-02.jpg" alt="" />
                               </div>
                               <div className="down-content">
-                                  <h4>Robe Classique</h4>
+                                  <h4>Ensemble Billion'Shake rose</h4>
                                   <span>15000 CFA</span>
-                                  <ul className="stars">
+                   {/* <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
-                                  </ul>
+                                  </ul> */}
                               </div>
                           </div>
                       </div>
@@ -169,15 +169,15 @@ const Products = () => {
                                   <img src="/assets/images/women-03.jpg" alt="" />
                               </div>
                               <div className="down-content">
-                                  <h4>Collection Printemps</h4>
+                                  <h4>Ensemble Billion'Shake café</h4>
                                   <span>15000 CFA</span>
-                                  <ul className="stars">
+                   {/* <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
-                                  </ul>
+                                  </ul> */}
                               </div>
                           </div>
                       </div>
@@ -194,15 +194,15 @@ const Products = () => {
                                   <img src="/assets/images/kid-01.jpg" alt="" />
                               </div>
                               <div className="down-content">
-                                  <h4>Collection Ecole</h4>
+                                  <h4>Pull-over Classique</h4>
                                   <span>15000 CFA</span>
-                                  <ul className="stars">
+                   {/* <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
-                                  </ul>
+                                  </ul> */}
                               </div>
                           </div>
                       </div>
@@ -219,15 +219,15 @@ const Products = () => {
                                   <img src="/assets/images/kid-02.jpg" alt="" />
                               </div>
                               <div className="down-content">
-                                  <h4>Casquette Ete</h4>
+                                  <h4>Nouveautés Pull-over / Par-dessus</h4>
                                   <span>15000 CFA</span>
-                                  <ul className="stars">
+                                  {/* <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
-                                  </ul>
+                                  </ul> */}
                               </div>
                           </div>
                       </div>
@@ -244,15 +244,15 @@ const Products = () => {
                                   <img src="/assets/images/kid-03.jpg" alt="" />
                               </div>
                               <div className="down-content">
-                                  <h4>Pull-over Classique</h4>
+                                  <h4>Collection Ecole</h4>
                                   <span>15000 CFA</span>
-                                  <ul className="stars">
+                   {/* <ul className="stars">
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
                                       <li><i className="fa fa-star"></i></li>
-                                  </ul>
+                                  </ul> */}
                               </div>
                           </div>
                       </div>
