@@ -177,9 +177,9 @@ const Home = () => {
                                       <div className="thumb">
                                           <div className="hover-content">
                                               <ul>
-                                                  <li><a href="/single-product"><i className="fa fa-eye"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-star"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-eye"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-star"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-shopping-cart"></i></a></li>
                                               </ul>
                                           </div>
                                           <img src="/assets/images/men-01.jpg" alt="" />
@@ -200,9 +200,9 @@ const Home = () => {
                                       <div className="thumb">
                                           <div className="hover-content">
                                               <ul>
-                                                  <li><a href="/single-product"><i className="fa fa-eye"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-star"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-eye"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-star"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-shopping-cart"></i></a></li>
                                               </ul>
                                           </div>
                                           <img src="/assets/images/men-02.jpg" alt="" />
@@ -223,9 +223,9 @@ const Home = () => {
                                       <div className="thumb">
                                           <div className="hover-content">
                                               <ul>
-                                                  <li><a href="/single-product"><i className="fa fa-eye"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-star"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-eye"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-star"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-shopping-cart"></i></a></li>
                                               </ul>
                                           </div>
                                           <img src="/assets/images/men-03.jpg" alt="" />
@@ -248,9 +248,9 @@ const Home = () => {
                                       <div className="thumb">
                                           <div className="hover-content">
                                               <ul>
-                                                  <li><a href="/single-product"><i className="fa fa-eye"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-star"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-eye"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-star"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-shopping-cart"></i></a></li>
                                               </ul>
                                           </div>
                                           <img src="/assets/images/men-01.jpg" alt="" />
@@ -296,9 +296,9 @@ const Home = () => {
                                       <div className="thumb">
                                           <div className="hover-content">
                                               <ul>
-                                                  <li><a href="/single-product"><i className="fa fa-eye"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-star"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-eye"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-star"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-shopping-cart"></i></a></li>
                                               </ul>
                                           </div>
                                           <img src="/assets/images/women-01.jpg" alt="" />
@@ -319,9 +319,9 @@ const Home = () => {
                                       <div className="thumb">
                                           <div className="hover-content">
                                               <ul>
-                                                  <li><a href="/single-product"><i className="fa fa-eye"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-star"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-eye"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-star"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-shopping-cart"></i></a></li>
                                               </ul>
                                           </div>
                                           <img src="/assets/images/women-02.jpg" alt="" />
@@ -342,9 +342,9 @@ const Home = () => {
                                       <div className="thumb">
                                           <div className="hover-content">
                                               <ul>
-                                                  <li><a href="/single-product"><i className="fa fa-eye"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-star"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-eye"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-star"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-shopping-cart"></i></a></li>
                                               </ul>
                                           </div>
                                           <img src="/assets/images/women-03.jpg" alt="" />
@@ -365,9 +365,9 @@ const Home = () => {
                                       <div className="thumb">
                                           <div className="hover-content">
                                               <ul>
-                                                  <li><a href="/single-product"><i className="fa fa-eye"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-star"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-eye"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-star"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-shopping-cart"></i></a></li>
                                               </ul>
                                           </div>
                                           <img src="/assets/images/women-01.jpg" alt="" />
@@ -413,9 +413,9 @@ const Home = () => {
                                       <div className="thumb">
                                           <div className="hover-content">
                                               <ul>
-                                                  <li><a href="/single-product"><i className="fa fa-eye"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-star"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-eye"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-star"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-shopping-cart"></i></a></li>
                                               </ul>
                                           </div>
                                           <img src="/assets/images/kid-01.jpg" alt="" />
@@ -436,9 +436,9 @@ const Home = () => {
                                       <div className="thumb">
                                           <div className="hover-content">
                                               <ul>
-                                                  <li><a href="/single-product"><i className="fa fa-eye"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-star"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-eye"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-star"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-shopping-cart"></i></a></li>
                                               </ul>
                                           </div>
                                           <img src="/assets/images/kid-02.jpg" alt="" />
@@ -459,9 +459,9 @@ const Home = () => {
                                       <div className="thumb">
                                           <div className="hover-content">
                                               <ul>
-                                                  <li><a href="/single-product"><i className="fa fa-eye"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-star"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-eye"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-star"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-shopping-cart"></i></a></li>
                                               </ul>
                                           </div>
                                           <img src="/assets/images/kid-03.jpg" alt="" />
@@ -482,9 +482,9 @@ const Home = () => {
                                       <div className="thumb">
                                           <div className="hover-content">
                                               <ul>
-                                                  <li><a href="/single-product"><i className="fa fa-eye"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-star"></i></a></li>
-                                                  <li><a href="/single-product"><i className="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-eye"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-star"></i></a></li>
+                                                  <li><a href="/singleproduct"><i className="fa fa-shopping-cart"></i></a></li>
                                               </ul>
                                           </div>
                                           <img src="/assets/images/kid-01.jpg" alt="" />

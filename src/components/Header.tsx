@@ -44,7 +44,7 @@ const Header = () => {
                       <NavLink to="/about" onClick={() => setIsMenuOpen(false)}>A propos</NavLink>
                     </li>
                     {/* <li>
-                      <NavLink to="/single-product" onClick={() => setIsMenuOpen(false)}>Produit</NavLink>
+                      <NavLink to="/singleproduct" onClick={() => setIsMenuOpen(false)}>Produit</NavLink>
                     </li> */}
                     <li>
                       <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>Contact</NavLink>
