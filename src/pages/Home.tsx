@@ -84,7 +84,7 @@ const Home = () => {
                                                       </div>
                                                   </div>
                                               </div> */}
-                                              <img src="/assets/images/baner-right-image-01.jpg" />
+                                              <img src="/assets/images/women-01.jpg" />
                                           </div>
                                       </div>
                                   </div>
@@ -104,7 +104,7 @@ const Home = () => {
                                                       </div>
                                                   </div>
                                               </div> */}
-                                              <img src="/assets/images/baner-right-image-02.jpg" />
+                                              <img src="/assets/images/t-shirt-01.png" />
                                           </div>
                                       </div>
                                   </div>
@@ -124,7 +124,7 @@ const Home = () => {
                                                       </div>
                                                   </div>
                                               </div> */}
-                                              <img src="/assets/images/baner-right-image-03.jpg" />
+                                              <img src="/assets/images/kid-01.jpg" />
                                           </div>
                                       </div>
                                   </div>
@@ -144,7 +144,7 @@ const Home = () => {
                                                       </div>
                                                   </div>
                                               </div> */}
-                                              <img src="/assets/images/.jpg" />
+                                              <img src="/assets/images/baner-right-image-04.png" />
                                           </div>
                                       </div>
                                   </div>

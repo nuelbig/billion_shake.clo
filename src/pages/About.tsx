@@ -67,7 +67,7 @@ const About = () => {
                                           </ul>
                                       </div>
                                   </div>
-                                  <img src="/assets/images/team-member-01.jpg" />
+                                  <img src="/assets/images/obed.png" />
                               </div>
                               <div className="down-content">
                                   <h4>OBED</h4>
