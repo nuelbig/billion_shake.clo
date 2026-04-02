@@ -6,8 +6,8 @@ const Home = () => {
     let attempts = 0
 
     const tryInit = () => {
-      const $ = window.jQuery || window.$
-      if (!$ || !$.fn || !$.fn.owlCarousel) {
+      const CFA = window.jQuery || window.$
+      if (!CFA || !CFA.fn || !CFA.fn.owlCarousel) {
         if (attempts < 10) {
           attempts += 1
           window.setTimeout(tryInit, 150)
@@ -16,14 +16,14 @@ const Home = () => {
       }
 
       const initCarousel = (selector: string) => {
-        const $el = $(selector)
-        if (!$el.length) return
-        if ($el.data('owl.carousel')) {
-          $el.trigger('destroy.owl.carousel')
-          $el.find('.owl-stage-outer').children().unwrap()
-          $el.removeClass('owl-center owl-loaded owl-text-select-on')
+        const CFAel = CFA(selector)
+        if (!CFAel.length) return
+        if (CFAel.data('owl.carousel')) {
+          CFAel.trigger('destroy.owl.carousel')
+          CFAel.find('.owl-stage-outer').children().unwrap()
+          CFAel.removeClass('owl-center owl-loaded owl-text-select-on')
         }
-        $el.owlCarousel({
+        CFAel.owlCarousel({
           items: 5,
           loop: true,
           dots: true,
@@ -55,8 +55,8 @@ const Home = () => {
                           <div className="left-content">
                               <div className="thumb">
                                   <div className="inner-content">
-                                      <h4>Nous sommes BillionShake</h4>
-                                      <span>Un template HTML5 moderne, propre et creatif</span>
+                                      <h4>Bienvenue chez Billion'Shake</h4>
+                                      {/* <span>Un template HTML5 moderne, propre et creatif</span> */}
                                       <div className="main-border-button">
                                           <a href="#">Acheter maintenant!</a>
                                       </div>
@@ -75,7 +75,7 @@ const Home = () => {
                                                   <h4>Jogging</h4>
                                                   <span>Les meilleurs joggings</span>
                                               </div>
-                                              <div className="hover-content">
+                                              {/* <div className="hover-content">
                                                   <div className="inner">
                                                       <h4>Jogging</h4>
                                                       <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
@@ -83,7 +83,7 @@ const Home = () => {
                                                           <a href="#">Decouvrir</a>
                                                       </div>
                                                   </div>
-                                              </div>
+                                              </div> */}
                                               <img src="/assets/images/baner-right-image-01.jpg" />
                                           </div>
                                       </div>
@@ -95,7 +95,7 @@ const Home = () => {
                                                   <h4>T-shirt</h4>
                                                   <span>Les meilleurs T-shirts</span>
                                               </div>
-                                              <div className="hover-content">
+                                              {/* <div className="hover-content">
                                                   <div className="inner">
                                                       <h4>T-shirt</h4>
                                                       <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
@@ -103,7 +103,7 @@ const Home = () => {
                                                           <a href="#">Decouvrir</a>
                                                       </div>
                                                   </div>
-                                              </div>
+                                              </div> */}
                                               <img src="/assets/images/baner-right-image-02.jpg" />
                                           </div>
                                       </div>
@@ -115,7 +115,7 @@ const Home = () => {
                                                   <h4>Pull-over / Par-dessus</h4>
                                                   <span>Les meilleurs pulls et par-dessus</span>
                                               </div>
-                                              <div className="hover-content">
+                                              {/* <div className="hover-content">
                                                   <div className="inner">
                                                       <h4>Pull-over / Par-dessus</h4>
                                                       <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
@@ -123,7 +123,7 @@ const Home = () => {
                                                           <a href="#">Decouvrir</a>
                                                       </div>
                                                   </div>
-                                              </div>
+                                              </div> */}
                                               <img src="/assets/images/baner-right-image-03.jpg" />
                                           </div>
                                       </div>
@@ -135,7 +135,7 @@ const Home = () => {
                                                   <h4>Accessoires</h4>
                                                   <span>Accessoires tendance</span>
                                               </div>
-                                              <div className="hover-content">
+                                              {/* <div className="hover-content">
                                                   <div className="inner">
                                                       <h4>Accessoires</h4>
                                                       <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
@@ -143,7 +143,7 @@ const Home = () => {
                                                           <a href="#">Decouvrir</a>
                                                       </div>
                                                   </div>
-                                              </div>
+                                              </div> */}
                                               <img src="/assets/images/.jpg" />
                                           </div>
                                       </div>
@@ -163,7 +163,7 @@ const Home = () => {
                       <div className="col-lg-6">
                           <div className="section-heading">
                               <h2>Nouveautés T-shirt</h2>
-                              <span>Le souci du detail fait la difference chez BillionShake.</span>
+                              <span>Le souci du detail fait la difference chez Billion'Shake.</span>
                           </div>
                       </div>
                   </div>
@@ -185,15 +185,15 @@ const Home = () => {
                                           <img src="/assets/images/men-01.jpg" alt="" />
                                       </div>
                                       <div className="down-content">
-                                          <h4>Classique Printemps</h4>
-                                          <span>$120.00</span>
-                                          <ul className="stars">
+                                          <h4>T-shirt Billion'Shake noire</h4>
+                                          <span>15000CFA</span>
+                                          {/* <ul className="stars">
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
-                                          </ul>
+                                          </ul> */}
                                       </div>
                                   </div>
                                   <div className="item">
@@ -208,15 +208,15 @@ const Home = () => {
                                           <img src="/assets/images/men-02.jpg" alt="" />
                                       </div>
                                       <div className="down-content">
-                                          <h4>Air Force 1 X</h4>
-                                          <span>$90.00</span>
-                                          <ul className="stars">
+                                          <h4>T-shirt Billion'Shake rose</h4>
+                                          <span>15000CFA</span>
+                                          {/* <ul className="stars">
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
-                                          </ul>
+                                          </ul> */}
                                       </div>
                                   </div>
                                   <div className="item">
@@ -231,8 +231,9 @@ const Home = () => {
                                           <img src="/assets/images/men-03.jpg" alt="" />
                                       </div>
                                       <div className="down-content">
-                                          <h4>Love Nana '20</h4>
-                                          <span>$150.00</span>
+                                          <h4>T-shirt Billion'Shake blanc</h4>
+                                          <span>15000CFA</span>
+                                          {/*
                                           <ul className="stars">
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
@@ -240,6 +241,7 @@ const Home = () => {
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                           </ul>
+                                          */}
                                       </div>
                                   </div>
                                   <div className="item">
@@ -254,15 +256,15 @@ const Home = () => {
                                           <img src="/assets/images/men-01.jpg" alt="" />
                                       </div>
                                       <div className="down-content">
-                                          <h4>Classique Printemps</h4>
-                                          <span>$120.00</span>
-                                          <ul className="stars">
+                                          <h4>T-shirt Billion'Shake noire</h4>
+                                          <span>15000CFA</span>
+                                          {/* <ul className="stars">
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
-                                          </ul>
+                                          </ul> */}
                                       </div>
                                   </div>
                               </div>
@@ -280,7 +282,7 @@ const Home = () => {
                       <div className="col-lg-6">
                           <div className="section-heading">
                               <h2>Nouveautés Jogging</h2>
-                              <span>Le souci du detail fait la difference chez BillionShake.</span>
+                              <span>Le souci du detail fait la difference chez Billion'Shake.</span>
                           </div>
                       </div>
                   </div>
@@ -302,15 +304,15 @@ const Home = () => {
                                           <img src="/assets/images/women-01.jpg" alt="" />
                                       </div>
                                       <div className="down-content">
-                                          <h4>Nouvelle veste verte</h4>
-                                          <span>$75.00</span>
-                                          <ul className="stars">
+                                          <h4>Jogging Billion'Shake </h4>
+                                          <span>15000CFA</span>
+                                          {/* <ul className="stars">
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
-                                          </ul>
+                                          </ul> */}
                                       </div>
                                   </div>
                                   <div className="item">
@@ -325,15 +327,15 @@ const Home = () => {
                                           <img src="/assets/images/women-02.jpg" alt="" />
                                       </div>
                                       <div className="down-content">
-                                          <h4>Robe Classique</h4>
-                                          <span>$45.00</span>
-                                          <ul className="stars">
+                                          <h4>Ensemble Billion'Shake rose</h4>
+                                          <span>15000CFA</span>
+                                          {/* <ul className="stars">
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
-                                          </ul>
+                                          </ul> */}
                                       </div>
                                   </div>
                                   <div className="item">
@@ -348,15 +350,15 @@ const Home = () => {
                                           <img src="/assets/images/women-03.jpg" alt="" />
                                       </div>
                                       <div className="down-content">
-                                          <h4>Collection Printemps</h4>
-                                          <span>$130.00</span>
-                                          <ul className="stars">
+                                          <h4>Ensemble Billion'Shake café</h4>
+                                          <span>15000CFA</span>
+                                          {/* <ul className="stars">
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
-                                          </ul>
+                                          </ul> */}
                                       </div>
                                   </div>
                                   <div className="item">
@@ -371,15 +373,15 @@ const Home = () => {
                                           <img src="/assets/images/women-01.jpg" alt="" />
                                       </div>
                                       <div className="down-content">
-                                          <h4>Classique Printemps</h4>
-                                          <span>$120.00</span>
-                                          <ul className="stars">
+                                          <h4>Ensemble Billion'Shake gris</h4>
+                                          <span>15000CFA</span>
+                                          {/* <ul className="stars">
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
-                                          </ul>
+                                          </ul> */}
                                       </div>
                                   </div>
                               </div>
@@ -397,7 +399,7 @@ const Home = () => {
                       <div className="col-lg-6">
                           <div className="section-heading">
                               <h2>Nouveautés Pull-over / Par-dessus</h2>
-                              <span>Le souci du detail fait la difference chez BillionShake.</span>
+                              <span>Le souci du detail fait la difference chez Billion'Shake.</span>
                           </div>
                       </div>
                   </div>
@@ -419,15 +421,15 @@ const Home = () => {
                                           <img src="/assets/images/kid-01.jpg" alt="" />
                                       </div>
                                       <div className="down-content">
-                                          <h4>Collection Ecole</h4>
-                                          <span>$80.00</span>
-                                          <ul className="stars">
+                                          <h4>Pull-over Classique</h4>
+                                          <span>15000CFA</span>
+                                          {/* <ul className="stars">
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
-                                          </ul>
+                                          </ul> */}
                                       </div>
                                   </div>
                                   <div className="item">
@@ -442,15 +444,15 @@ const Home = () => {
                                           <img src="/assets/images/kid-02.jpg" alt="" />
                                       </div>
                                       <div className="down-content">
-                                          <h4>Casquette Ete</h4>
-                                          <span>$12.00</span>
-                                          <ul className="stars">
+                                          <h4>Par-Dessus</h4>
+                                          <span>15000CFA</span>
+                                          {/* <ul className="stars">
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
-                                          </ul>
+                                          </ul> */}
                                       </div>
                                   </div>
                                   <div className="item">
@@ -465,15 +467,15 @@ const Home = () => {
                                           <img src="/assets/images/kid-03.jpg" alt="" />
                                       </div>
                                       <div className="down-content">
-                                          <h4>Pull-over Classique</h4>
-                                          <span>$30.00</span>
-                                          <ul className="stars">
+                                          <h4>Collection Ecole</h4>
+                                          <span>15000CFA</span>
+                                          {/* <ul className="stars">
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
-                                          </ul>
+                                          </ul> */}
                                       </div>
                                   </div>
                                   <div className="item">
@@ -489,14 +491,14 @@ const Home = () => {
                                       </div>
                                       <div className="down-content">
                                           <h4>Classique Printemps</h4>
-                                          <span>$120.00</span>
-                                          <ul className="stars">
+                                          <span>15000CFA</span>
+                                          {/* <ul className="stars">
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
                                               <li><i className="fa fa-star"></i></li>
-                                          </ul>
+                                          </ul> */}
                                       </div>
                                   </div>
                               </div>
@@ -508,13 +510,13 @@ const Home = () => {
           
 
           
-          <section className="section" id="explore">
+          {/* <section className="section" id="explore">
               <div className="container">
                   <div className="row">
                       <div className="col-lg-6">
                           <div className="left-content">
                               <h2>Decouvrez nos produits</h2>
-                              <span>Vous pouvez utiliser ce template HTML/CSS et le modifier librement pour BillionShake.</span>
+                              <span>Vous pouvez utiliser ce template HTML/CSS et le modifier librement pour Billion'Shake.</span>
                               <div className="quote">
                                   <i className="fa fa-quote-left"></i><p>Vous ne devez pas redistribuer le fichier ZIP du template sur un autre site.</p>
                               </div>
@@ -565,7 +567,7 @@ const Home = () => {
                       <div className="col-lg-12">
                           <div className="section-heading">
                               <h2>Reseaux sociaux</h2>
-                              <span>Le souci du detail fait la difference chez BillionShake.</span>
+                              <span>Le souci du detail fait la difference chez Billion'Shake.</span>
                           </div>
                       </div>
                   </div>
@@ -640,7 +642,7 @@ const Home = () => {
                       </div>
                   </div>
               </div>
-          </section>
+          </section> */}
           
       <Subscribe />
     </>

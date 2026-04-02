@@ -39,7 +39,7 @@ const Contact = () => {
                       <div className="col-lg-6">
                           <div className="section-heading">
                               <h2>Dites bonjour. N'hesitez pas!</h2>
-                              <span>Le souci du detail fait la difference chez BillionShake.</span>
+                              <span>Le souci du detail fait la difference chez Billion'Shake.</span>
                           </div>
                           <form id="contact" action="" method="post">
                               <div className="row">

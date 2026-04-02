@@ -8,7 +8,7 @@ const Header = () => {
           <div className="col-12">
             <nav className="main-nav">
               <NavLink to="/" className="logo">
-                <img src="/assets/images/logo.png" alt="BillionShake logo" />
+                <img src="/assets/images/logo.png" alt="Billion'Shake logo" height="80" />
               </NavLink>
               <ul className="nav">
                 <li className="scroll-to-section">

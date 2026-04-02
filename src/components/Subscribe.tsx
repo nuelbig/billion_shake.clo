@@ -7,7 +7,7 @@ const Subscribe = () => {
             <div className="section-heading">
               <h2>En vous abonnant a notre newsletter, vous obtenez 30% de reduction</h2>
               <span>
-                Le souci du detail fait la difference chez BillionShake.
+                Le souci du detail fait la difference chez Billion'Shake.
               </span>
             </div>
             <form id="subscribe" action="" method="get">
@@ -56,17 +56,17 @@ const Subscribe = () => {
                   <li>
                     Adresse du magasin :
                     <br />
-                    <span>Sunny Isles Beach, FL 33160, United States</span>
+                    <span>Agbalépédo, à coté de la station Total</span>
                   </li>
                   <li>
                     Telephone :
                     <br />
-                    <span>010-020-0340</span>
+                    <span>92596583</span>
                   </li>
                   <li>
                     Bureau :
                     <br />
-                    <span>North Miami Beach</span>
+                    <span>Entreprise de l'union</span>
                   </li>
                 </ul>
               </div>
@@ -80,14 +80,14 @@ const Subscribe = () => {
                   <li>
                     Email :
                     <br />
-                    <span>contact@billionshake.com</span>
+                    <span>contact@Billion'Shake.com</span>
                   </li>
                   <li>
                     Reseaux sociaux :
                     <br />
                     <span>
                       <a href="#!">Facebook</a>, <a href="#!">Instagram</a>,{' '}
-                      <a href="#!">Behance</a>, <a href="#!">Linkedin</a>
+                      <a href="#!">TikTok</a>
                     </span>
                   </li>
                 </ul>
